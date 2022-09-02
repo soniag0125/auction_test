@@ -1,7 +1,7 @@
 
 # Auction Demo
 
-API to add virtual bids for an auction.
+API to add virtual bids for an auction. This project is using Spring Boot, Java 8, JUnit for the unit test and Maven to manage the dependencies.
 
 
 
@@ -12,6 +12,8 @@ API to add virtual bids for an auction.
 
 
 ## API Reference
+
+There are 3 endpoints:
 
 #### Post add a new bidder
 

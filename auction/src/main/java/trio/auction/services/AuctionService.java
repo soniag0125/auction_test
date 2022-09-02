@@ -32,7 +32,7 @@ public class AuctionService {
 		if (startBidWinner.getBidderName() == null) {
 			winnerAuction = calculateWinner().get(0);
 		} else {
-			winnerAuction = new WinnerAuctionDto(startBidWinner);
+			winnerAuction = new WinnerAuctionDto(startBidWinner, 1, startBidWinner.getStartBid());
 		}
 		return winnerAuction;
 	}

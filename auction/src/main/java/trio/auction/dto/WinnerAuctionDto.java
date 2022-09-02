@@ -21,10 +21,6 @@ public class WinnerAuctionDto {
 		this.winnerBidAmount = winnerBidAmount;
 	}
 
-	public WinnerAuctionDto(BidderDto bidder) {
-		this.bidder = bidder;
-	}
-
 	public WinnerAuctionDto() {
 	}
 
